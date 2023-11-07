@@ -2,12 +2,10 @@ package og.chris;
 
 import org.h2.tools.Server;
 import org.springframework.context.MessageSource;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.ComponentScans;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.*;
 import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
@@ -37,9 +35,14 @@ public class Config {
         return new JdbcTemplate(dataSource());
     }
 
+    @Profile("dev")
     @Bean(initMethod="start")
     public Server h2WebServer() throws SQLException{
         return Server.createWebServer("-web", "-webAllowOthers", "-webPort", "8082");
     }
 
+    @Bean
+    public NamedParameterJdbcTemplate namedParameterJdbcTemplate(){
+        return new NamedParameterJdbcTemplate(dataSource());
+    }
 }

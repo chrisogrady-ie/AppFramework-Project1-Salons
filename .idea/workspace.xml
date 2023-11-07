@@ -4,24 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f0f5a4-0cad-490d-818c-3cc8ca7b76d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/dao/SalonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/dao/SalonDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_de.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+    <list default="true" id="61f0f5a4-0cad-490d-818c-3cc8ca7b76d8" name="Changes" comment="final submission">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/dao/StylistDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/dao/StylistDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/dao/dto/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/dao/dto/ContractRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/entitites/Salon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/entitites/SalonRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/entitites/Stylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/entitites/StylistRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/service/SalonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/service/SalonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/service/StylistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/service/StylistServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/service/exceptions/SalonIdAlreadyExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/service/exceptions/SalonMalformedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/service/exceptions/SalonNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/service/exceptions/StylistMalformedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/og/chris/service/exceptions/StylistNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DaoTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/og/chris/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/og/chris/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/og/chris/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/og/chris/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/og/chris/dao/SalonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/og/chris/dao/SalonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/og/chris/dao/SalonDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/og/chris/dao/SalonDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LanguageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +43,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -48,57 +61,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "h2"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.Tests">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="og.chris.Main" />
+}</component>
+  <component name="RunManager" selected="JUnit.ServiceTests.testAllWithinSalon">
+    <configuration name="ServiceTests.testAllWithinSalon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="P1Salon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="og.chris.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceTests" />
+      <option name="METHOD_NAME" value="testAllWithinSalon" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTests.testAverageSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="P1Salon" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ServiceTests" />
+      <option name="METHOD_NAME" value="testAverageSalary" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testSalonCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTests.testMoveStylist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="P1Salon" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="testSalonCount" />
+      <option name="MAIN_CLASS_NAME" value="ServiceTests" />
+      <option name="METHOD_NAME" value="testMoveStylist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTests.testSaveStylist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P1Salon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceTests" />
+      <option name="METHOD_NAME" value="testSaveStylist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTests.testStylistCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P1Salon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceTests" />
+      <option name="METHOD_NAME" value="testStylistCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,9 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests" />
-        <item itemvalue="JUnit.Tests.testSalonCount" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ServiceTests.testAllWithinSalon" />
+        <item itemvalue="JUnit.ServiceTests.testAverageSalary" />
+        <item itemvalue="JUnit.ServiceTests.testStylistCount" />
+        <item itemvalue="JUnit.ServiceTests.testMoveStylist" />
+        <item itemvalue="JUnit.ServiceTests.testSaveStylist" />
       </list>
     </recent_temporary>
   </component>
@@ -121,8 +154,28 @@
       <option name="presentableId" value="Default" />
       <updated>1696260148326</updated>
       <workItem from="1696260149397" duration="3336000" />
-      <workItem from="1696263515275" duration="2018000" />
+      <workItem from="1696263515275" duration="2139000" />
+      <workItem from="1696338193821" duration="17804000" />
+      <workItem from="1696863824437" duration="6431000" />
+      <workItem from="1696942999672" duration="6705000" />
+      <workItem from="1696950147750" duration="82000" />
+      <workItem from="1697483005391" duration="334000" />
+      <workItem from="1697547530496" duration="184000" />
+      <workItem from="1697628911284" duration="53000" />
+      <workItem from="1698093266969" duration="712000" />
+      <workItem from="1698347612170" duration="1536000" />
+      <workItem from="1698434274742" duration="25484000" />
+      <workItem from="1699366109372" duration="316000" />
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <option name="closed" value="true" />
+      <created>1696265591479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696265591479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,5 +191,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <MESSAGE value="final submission" />
+    <option name="LAST_COMMIT_MESSAGE" value="final submission" />
   </component>
 </project>
